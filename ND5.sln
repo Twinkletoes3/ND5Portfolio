@@ -1,0 +1,99 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ND5.Api", "ND5.Api\ND5.Api.csproj", "{3F811E86-A56A-4148-AB40-549208409F31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ND5.BL", "ND5.BL\ND5.BL.csproj", "{979CA597-8D3B-44D8-9DA1-6AF581E74534}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ND5.DAL", "ND5.DAL\ND5.DAL.csproj", "{4FD4D500-0A78-4402-8C90-A314186344ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AFCore", "AFCore", "{E98A5124-011C-4D80-A60B-94B310B2FBE0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFCore.Core", "AFCore.Core\AFCore.Core.csproj", "{0EF19E55-75D8-4AAF-86EC-D7C60BCA1AC8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFCore.Domain", "AFCore.Domain\AFCore.Domain.csproj", "{D2B5AC3A-5EB7-4F05-B7AA-CFAE3AA5BC79}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AFCore.EntityFrameworkCore", "AFCore.EntityFrameworkCore\AFCore.EntityFrameworkCore.csproj", "{48FC6BC1-A29C-46FE-9F8C-340104DE5518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ND5.DataImport", "ND5.DataImport\ND5.DataImport.csproj", "{2932661B-4861-44E7-8838-BA7B2C908600}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ND5.Web", "ND5.Web\", "{52B3EA22-3E45-42BC-A1D2-C00ACD1FC618}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54376"
+		Debug.AspNetCompiler.PhysicalPath = "ND5.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54376\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54376"
+		Release.AspNetCompiler.PhysicalPath = "ND5.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54376\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54376"
+		SlnRelativePath = "ND5.Web\"
+	EndProjectSection
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "ND5.React", "ND5.React\ND5.React.esproj", "{8FDD430F-4B54-4D19-B179-5FA391A2F9A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F811E86-A56A-4148-AB40-549208409F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F811E86-A56A-4148-AB40-549208409F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F811E86-A56A-4148-AB40-549208409F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F811E86-A56A-4148-AB40-549208409F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{979CA597-8D3B-44D8-9DA1-6AF581E74534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{979CA597-8D3B-44D8-9DA1-6AF581E74534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{979CA597-8D3B-44D8-9DA1-6AF581E74534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{979CA597-8D3B-44D8-9DA1-6AF581E74534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD4D500-0A78-4402-8C90-A314186344ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD4D500-0A78-4402-8C90-A314186344ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD4D500-0A78-4402-8C90-A314186344ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD4D500-0A78-4402-8C90-A314186344ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF19E55-75D8-4AAF-86EC-D7C60BCA1AC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF19E55-75D8-4AAF-86EC-D7C60BCA1AC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF19E55-75D8-4AAF-86EC-D7C60BCA1AC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF19E55-75D8-4AAF-86EC-D7C60BCA1AC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B5AC3A-5EB7-4F05-B7AA-CFAE3AA5BC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B5AC3A-5EB7-4F05-B7AA-CFAE3AA5BC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B5AC3A-5EB7-4F05-B7AA-CFAE3AA5BC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B5AC3A-5EB7-4F05-B7AA-CFAE3AA5BC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48FC6BC1-A29C-46FE-9F8C-340104DE5518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FC6BC1-A29C-46FE-9F8C-340104DE5518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FC6BC1-A29C-46FE-9F8C-340104DE5518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FC6BC1-A29C-46FE-9F8C-340104DE5518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2932661B-4861-44E7-8838-BA7B2C908600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2932661B-4861-44E7-8838-BA7B2C908600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2932661B-4861-44E7-8838-BA7B2C908600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2932661B-4861-44E7-8838-BA7B2C908600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52B3EA22-3E45-42BC-A1D2-C00ACD1FC618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B3EA22-3E45-42BC-A1D2-C00ACD1FC618}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDD430F-4B54-4D19-B179-5FA391A2F9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDD430F-4B54-4D19-B179-5FA391A2F9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDD430F-4B54-4D19-B179-5FA391A2F9A6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8FDD430F-4B54-4D19-B179-5FA391A2F9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDD430F-4B54-4D19-B179-5FA391A2F9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDD430F-4B54-4D19-B179-5FA391A2F9A6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0EF19E55-75D8-4AAF-86EC-D7C60BCA1AC8} = {E98A5124-011C-4D80-A60B-94B310B2FBE0}
+		{D2B5AC3A-5EB7-4F05-B7AA-CFAE3AA5BC79} = {E98A5124-011C-4D80-A60B-94B310B2FBE0}
+		{48FC6BC1-A29C-46FE-9F8C-340104DE5518} = {E98A5124-011C-4D80-A60B-94B310B2FBE0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67F243DE-B173-4AB5-94FF-7BB8808579E6}
+	EndGlobalSection
+EndGlobal
